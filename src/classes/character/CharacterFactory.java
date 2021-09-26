@@ -1,7 +1,11 @@
 package classes.character;
 
+import java.util.ArrayList;
+
 public class CharacterFactory {
     
+    public ArrayList<Character> characters;
+
     public Archer createArcher(String name) {
         return new Archer(name);
     }

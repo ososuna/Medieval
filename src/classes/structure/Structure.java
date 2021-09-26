@@ -6,9 +6,8 @@ public abstract class Structure {
     protected int level;
     protected String type;
     
-    public Structure(int id, int level) {
+    public Structure(int id) {
         this.id = id;
-        this.level = level;
     }
 
     public int getId() {

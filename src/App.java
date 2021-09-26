@@ -1,5 +1,14 @@
+import classes.MedievalFactoryCreate;
+import classes.character.CharacterFactory;
+import classes.structure.StructureFactory;
+
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+    
+        MedievalFactoryCreate factory = new MedievalFactoryCreate();
+
+        CharacterFactory characterFactory = factory.makeCharacterFactory();
+        StructureFactory structureFactory = factory.makeStructureFactory();
+    
     }
 }
