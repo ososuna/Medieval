@@ -36,7 +36,7 @@ public abstract class Structure {
     
     @Override
     public String toString() {
-        return "Structure [id=" + id + ", level=" + level + ", type=" + type + "]";
+        return "\nStructure [id=" + id + ", level=" + level + ", type=" + type + "]";
     }
 
 }
