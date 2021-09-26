@@ -81,7 +81,7 @@ public abstract class Character {
 
     @Override
     public String toString() {
-        return "Character [abilityPower=" + abilityPower + ", armor=" + armor + ", attackDamage=" + attackDamage
+        return "\nCharacter [abilityPower=" + abilityPower + ", armor=" + armor + ", attackDamage=" + attackDamage
                 + ", health=" + health + ", level=" + level + ", mana=" + mana + ", name=" + name + ", type=" + type
                 + "]";
     }

@@ -4,26 +4,36 @@ import java.util.ArrayList;
 
 public class CharacterFactory {
     
-    public ArrayList<Character> characters;
+    public ArrayList<Character> characters = new ArrayList<Character>();
 
     public Archer createArcher(String name) {
-        return new Archer(name);
+        Archer archer = new Archer(name);
+        characters.add(archer);
+        return archer;
     }
     
     public Assassin createAssassin(String name) {
-        return new Assassin(name);
+        Assassin assassin = new Assassin(name);
+        characters.add(assassin);
+        return assassin;
     }
     
     public Tank createTank(String name) {
-        return new Tank(name);
+        Tank tank = new Tank(name);
+        characters.add(tank);
+        return tank;
     }
     
     public Warrior createWarrior(String name) {
-        return new Warrior(name);
+        Warrior warrior = new Warrior(name);
+        characters.add(warrior);
+        return warrior;
     }
     
     public Wizard createWizard(String name) {
-        return new Wizard(name);
+        Wizard wizard = new Wizard(name);
+        characters.add(wizard);
+        return wizard;
     }
 
 }
